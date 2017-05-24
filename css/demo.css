@@ -93,8 +93,7 @@ a:focus {
 	position: absolute;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
+	justify-content: center;
 	width: 100%;
 	padding: 2em;
 }
@@ -173,48 +172,8 @@ a:focus {
 	cursor: pointer;
 }
 
-/* Demo themes */
-.demo-2 {
-	--background-color: #fff;
-	--text-color: #8389a6;
-	--link-color: #1679d1;
-	--link-hover-color: #6a22ba;
-}
-
-.demo-3 {
-	--background-color: #381e6f;
-	--link-color: #d7b5fc;
-	--link-hover-color: #cbfaf2;
-}
-
-.demo-4 {
-	--background-color: #780f00;
-	--link-color: #e92a0f;
-	--link-hover-color: #fff;
-}
-
-.demo-5 {
-	--background-color: #52d9e0;
-	--link-color: #85fff0;
-	--link-hover-color: #4730b3;
-}
-
-.demo-6 {
-	--background-color: #342938;
-	--link-hover-color: #cb9edb;
-}
-
-@media screen and (max-width: 60em) {
-	.codrops-header {
-		flex-direction: column;
-		align-items: flex-start;
-		font-size: 0.85em;
-	}
-	.codrops-links {
-		margin: 0 0 1em 0;
-	}
-	.demos {
-		width: 100%;
-		margin: 1em 0 0;
-	}
+#logo {
+	height: 50vh;
+	margin-left: 2rem;
+	margin-top: 25vh;
 }
